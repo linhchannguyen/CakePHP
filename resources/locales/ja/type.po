@@ -1,0 +1,47 @@
+msgid "FORM_REGISTER"
+msgstr "上記の設定で登録する"
+
+msgid "EMPTY_TYPE"
+msgstr "現在登録されている試験種マスターはございません。"
+
+msgid "COURSE_NOT_FOUND"
+msgstr "EROOR : 講座IDが取得できません。\r再度ログインしてください。"
+
+msgid "DELETE_TEST_SPECIES"
+msgstr "試験種削除"
+
+msgid "ADD_TEST_SPECIES"
+msgstr "試験種追加"
+
+msgid "ROW_REMOVE"
+msgstr "削除しますか？ \n※試験区分とこの区分内の解答速報がすべて削除されます。"
+
+msgid "FORM_REMOVE"
+msgstr "削除しますか？ \n※試験種とこの試験種内の試験区分と解答速報がすべて削除されます。"
+
+msgid "TEST_SPECIES_WITH_THE_SAME_NAME"
+msgstr "同じ名前の試験種があります。"
+
+msgid "ENTER_WITHIN_100_CHARACTER"
+msgstr "100文字以内で入力してください。"
+
+msgid "TITLE_ENTER_WITHIN_60_CHARACTER"
+msgstr "60字以内で入力してください。"
+
+msgid "TEST_SEGMENT_WITH_THE_SAME_NAME"
+msgstr "同じ名前の試験区分があります。"
+
+msgid "CATEGORY_ENTER_WITHIN_60_CHARACTER"
+msgstr "60文字以内で入力してください。"
+
+msgid "THEY_HAVE_THE_SAME_DISPLAY_NUMBER"
+msgstr "同じ表示番号があります。"
+
+msgid "0_CANNOT_BE_ENTERED"
+msgstr "0は入力できません。"
+
+msgid "ENTER_WITHIN_3_ALPHANUMERIC_CHARACTERS"
+msgstr "半角数字3文字以内で入力してください。"
+
+msgid "PLEASE_CHECK_YOUR_ENTRIES"
+msgstr "入力内容を確認してください。"

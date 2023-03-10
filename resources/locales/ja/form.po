@@ -1,0 +1,20 @@
+msgid "TITLE_LOGIN"
+msgstr "ログイン"
+
+msgid "LABEL_COURSE_ID"
+msgstr "講座ID :"
+
+msgid "LABEL_PASSWORD"
+msgstr "パスワード:"
+
+msgid "LABEL_COURSE"
+msgstr "講座:"
+
+msgid "PLACEHOLDER_COURSE_SELECTION"
+msgstr "--担当講座を選択してください。--"
+
+msgid "BUTTON_LOGIN"
+msgstr "ログイン"
+
+msgid "LABEL_LOGIN_ID"
+msgstr "ログインID:"

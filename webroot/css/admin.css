@@ -1,0 +1,728 @@
+html {
+    white-space: nowrap;
+ overflow-x: scroll;
+}
+body {
+    background: #f7f7f7;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+    line-height: 1.8;
+}
+.table-scroll-host {
+  grid-area: content;
+  overflow: scroll;
+}
+/*----------------------------------------
+ ログインページ
+ ---------------------------------------*/
+
+body.pageLogin #container {
+    text-align: left;
+    width: 520px;
+    margin: auto;
+    margin: 20px auto 0;
+}
+body.pageLogin #content{
+}
+body.pageLogin #header{
+	text-align: center;
+}
+
+/*----------------------------------------
+ 管理画面
+ ---------------------------------------*/
+body.pageAdmin #container,
+body.pageSuperAdmin #container {
+    text-align: left;
+    margin: 10px auto 0;
+}
+body.pageAdmin #header,
+body.pageSuperAdmin #header {
+	text-align: left;
+    padding: 10px 0px;
+}
+body.pageAdmin #header img,
+body.pageSuperAdmin #header img{
+	width: 210px;
+    height: auto;
+    display: block;
+}
+
+
+#container {
+    text-align: left;
+    width: 95%;
+    margin: auto;
+}
+#header {
+    padding: 10px 20px;
+}
+.main-content{
+    width: 80%;
+    float: left;
+}
+.side-content{
+    width: 20%;
+    float: left;
+}
+
+.main-content{
+    max-width: -webkit-calc(100% - 250px);
+    max-width: calc(100% - 250px);
+}
+.side-content{
+    min-width: 250px;
+}
+
+/*---- .main-content---*/
+.main-content h2{
+    border-left: 5px solid;
+    padding: 0 0 0px 20px;
+    background: #f7f7f7;
+    color: #9e7e00;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.main-content h3{
+    border-bottom: 3px solid #ddd;
+    font-size: 14px;
+    padding: 0 0 8px 0;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    color: #9e7e00;
+}
+
+.main-content h4{
+	border-bottom: 2px solid #ddd;
+    color: #9e7e00;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 0 5px 0;
+}
+
+.main-content p{
+	
+}
+
+.edit_link{
+    float: right;
+    margin: 0;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+.edit_link a{
+	display: block;
+    text-decoration: none;
+    border: 1px solid;
+    line-height: 1;
+    line-height: 30px;
+    padding: 0px 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background: #9e7e00;
+    color: #fff;
+    letter-spacing: 0.5em;
+    border: #9e7e00;
+    background: #ccc500;
+    background: -moz-linear-gradient(top, #ccc500 0%, #9e7e00 100%);
+    background: -webkit-linear-gradient(top, #ccc500 0%,#9e7e00 100%);
+    background: linear-gradient(to bottom, #ccc500 0%,#9e7e00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccc500', endColorstr='#9e7e00',GradientType=0 );
+}
+.edit_link a:hover{
+}
+
+ul {
+  list-style:none;
+}
+
+a.imgA{
+    display: block;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+a.imgA:after{
+	content: 'この画像を編集';
+    display: inline-block;
+    margin: 0 0 0 0px;
+    border: 1px solid;
+    padding: 0 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 210px;
+}
+a.imgA img{
+    width: 200px;
+    height: auto;
+}
+
+/*---- .side-content---*/
+.side-content ul{
+}
+
+.side-content ul li{
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+    position:relative;
+}
+
+.okIcon{
+    font-size:12px;
+    position: absolute;
+    display: block;
+    width: 40px;
+    line-height: 1;
+    padding: 3px 0;
+    text-align: center;
+    background: green;
+    color: #fff;
+    font-weight: bold;
+    right: 0;
+    top: 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.ngIcon{
+    font-size:12px;
+    position: absolute;
+    display: block;
+    width: 40px;
+    line-height: 1;
+    padding: 3px 0;
+    text-align: center;
+    background: #ff4400;
+    color: #fff;
+    font-weight: bold;
+    right: 0;
+    top: 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.side-content ul li a{
+}
+
+.side-content ul li.lang{
+    padding: 10px 0 0;
+    border: none;
+}
+.side-content ul li.lang:before{
+	content: '言語選択';
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #444;
+    border-left: 2px solid #444;
+    padding: 0 0 0px 10px;
+    margin: 0 0 8px 0;
+    line-height: 1;
+}
+
+.side-content ul li.show{
+}
+.side-content ul li.show:before{
+	content:'公開切り替え';
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #444;
+    border-left: 2px solid #444;
+    padding: 0 0 0px 10px;
+    margin: 0 0 8px 0;
+    line-height: 1;
+}
+
+.side-content ul li.lang select{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.side-content ul li.show select{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.side-content ul li:last-child{
+	padding-top:20px;
+    border: none;
+}
+
+.side-content ul li:last-child a{
+	border: 1px solid #ddd;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 35px;
+    color: #686868;
+background: #feffff;
+background: -moz-linear-gradient(top, #feffff 0%, #e0e0e0 100%);
+background: -webkit-linear-gradient(top, #feffff 0%,#e0e0e0 100%);
+background: linear-gradient(to bottom, #feffff 0%,#e0e0e0 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#e0e0e0',GradientType=0 );    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    width: 80%;
+}
+
+
+
+/* - 入力欄ページ - */
+div.input{
+	border-bottom:1px solid #ddd;
+	padding:0 0 15px 0;
+}
+
+/* - 画像関係 - */
+p.imgEdit{}
+p.imgEdit a{}
+p.imgEdit a:after{
+    content: 'プロフィールアイコン画像を編集';
+    display: inline-block;
+    margin: 0 0 0 0px;
+    border: 1px solid;
+    padding: 0 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+p.imgEdit a img{
+	display: block;
+	width:100px;
+	height:auto;
+	border:5px solid #fff;
+    margin: 0 0 10px 0px;
+}
+p.imgEdit a:hover img{
+	border:5px solid rgba(0,0,0,0.2);
+}
+
+p.nowImg img{
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
+p.nowImg_header img{
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+.cropper{
+	margin: 0 0 10px 0
+}
+
+/* - 保存完了した時のアナウンス - */
+
+.success, .message, .cake-error, p.error, .error-message{
+	text-align: center;
+    background: #fff;
+    color: #990000;
+    border: 10px solid #dbdbdb;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    font-size: 20px;
+    text-shadow: none;
+}
+
+/* - 画像を保存するときのボタン - */
+.btn-primary{
+    width: 110px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    border: 1px solid;
+    line-height: 1;
+    line-height: 30px;
+    padding: 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background: #9e7e00;
+    color: #fff;
+    letter-spacing: 0.5em;
+    border: #9e7e00;
+    background: #ccc500;
+    background: -moz-linear-gradient(top, #ccc500 0%, #9e7e00 100%);
+    background: -webkit-linear-gradient(top, #ccc500 0%,#9e7e00 100%);
+    background: linear-gradient(to bottom, #ccc500 0%,#9e7e00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccc500', endColorstr='#9e7e00',GradientType=0 );}
+body {
+    background: #f7f7f7;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+    line-height: 1.8;
+}
+/*----------------------------------------
+ ログインページ
+ ---------------------------------------*/
+
+body.pageLogin #container {
+    text-align: left;
+    width: 520px;
+    margin: auto;
+    margin: 20px auto 0;
+}
+body.pageLogin #content{
+}
+body.pageLogin #header{
+	text-align: center;
+}
+
+/*----------------------------------------
+ 管理画面
+ ---------------------------------------*/
+body.pageAdmin #container,
+body.pageSuperAdmin #container {
+    text-align: left;
+    margin: 10px auto 0;
+}
+body.pageAdmin #header,
+body.pageSuperAdmin #header {
+	text-align: left;
+    padding: 10px 0px;
+}
+body.pageAdmin #header img,
+body.pageSuperAdmin #header img{
+	width: 210px;
+    height: auto;
+    display: block;
+}
+
+
+#container {
+    text-align: left;
+    width: 95%;
+    margin: auto;
+}
+#header {
+    padding: 10px 20px;
+}
+.main-content{
+    width: 80%;
+    float: left;
+}
+.side-content{
+    width: 20%;
+    float: left;
+}
+
+.main-content{
+    max-width: -webkit-calc(100% - 250px);
+    max-width: calc(100% - 250px);
+}
+.side-content{
+    min-width: 250px;
+}
+
+/*---- .main-content---*/
+.main-content h2{
+    border-left: 5px solid;
+    padding: 0 0 0px 20px;
+    background: #f7f7f7;
+    color: #9e7e00;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.main-content h3{
+    border-bottom: 3px solid #ddd;
+    font-size: 14px;
+    padding: 0 0 8px 0;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    color: #9e7e00;
+}
+
+.main-content h4{
+	border-bottom: 2px solid #ddd;
+    color: #9e7e00;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 0 5px 0;
+}
+
+.main-content p{
+	
+}
+
+.edit_link{
+    float: right;
+    margin: 0;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+.edit_link a{
+	display: block;
+    text-decoration: none;
+    border: 1px solid;
+    line-height: 1;
+    line-height: 30px;
+    padding: 0px 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background: #9e7e00;
+    color: #fff;
+    letter-spacing: 0.5em;
+    border: #9e7e00;
+    background: #ccc500;
+    background: -moz-linear-gradient(top, #ccc500 0%, #9e7e00 100%);
+    background: -webkit-linear-gradient(top, #ccc500 0%,#9e7e00 100%);
+    background: linear-gradient(to bottom, #ccc500 0%,#9e7e00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccc500', endColorstr='#9e7e00',GradientType=0 );
+}
+.edit_link a:hover{
+}
+
+ul {
+  list-style:none;
+}
+
+a.imgA{
+    display: block;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+a.imgA:after{
+	content: 'この画像を編集';
+    display: inline-block;
+    margin: 0 0 0 0px;
+    border: 1px solid;
+    padding: 0 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 210px;
+}
+a.imgA img{
+    width: 200px;
+    height: auto;
+}
+
+/*---- .side-content---*/
+.side-content ul{
+}
+
+.side-content ul li{
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+    position:relative;
+}
+
+.okIcon{
+    font-size:12px;
+    position: absolute;
+    display: block;
+    width: 40px;
+    line-height: 1;
+    padding: 3px 0;
+    text-align: center;
+    background: green;
+    color: #fff;
+    font-weight: bold;
+    right: 0;
+    top: 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.ngIcon{
+    font-size:12px;
+    position: absolute;
+    display: block;
+    width: 40px;
+    line-height: 1;
+    padding: 3px 0;
+    text-align: center;
+    background: #ff4400;
+    color: #fff;
+    font-weight: bold;
+    right: 0;
+    top: 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.side-content ul li a{
+}
+
+.side-content ul li.lang{
+    padding: 10px 0 0;
+    border: none;
+}
+.side-content ul li.lang:before{
+	content: '言語選択';
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #444;
+    border-left: 2px solid #444;
+    padding: 0 0 0px 10px;
+    margin: 0 0 8px 0;
+    line-height: 1;
+}
+
+.side-content ul li.show{
+}
+.side-content ul li.show:before{
+	content:'公開切り替え';
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #444;
+    border-left: 2px solid #444;
+    padding: 0 0 0px 10px;
+    margin: 0 0 8px 0;
+    line-height: 1;
+}
+
+.side-content ul li.lang select{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.side-content ul li.show select{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.side-content ul li:last-child{
+	padding-top:20px;
+    border: none;
+}
+
+.side-content ul li:last-child a{
+	border: 1px solid #ddd;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 35px;
+    color: #686868;
+background: #feffff;
+background: -moz-linear-gradient(top, #feffff 0%, #e0e0e0 100%);
+background: -webkit-linear-gradient(top, #feffff 0%,#e0e0e0 100%);
+background: linear-gradient(to bottom, #feffff 0%,#e0e0e0 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#e0e0e0',GradientType=0 );    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    width: 80%;
+}
+
+
+
+/* - 入力欄ページ - */
+div.input{
+	border-bottom:1px solid #ddd;
+	padding:0 0 15px 0;
+}
+
+/* - 画像関係 - */
+p.imgEdit{}
+p.imgEdit a{}
+p.imgEdit a:after{
+    content: 'プロフィールアイコン画像を編集';
+    display: inline-block;
+    margin: 0 0 0 0px;
+    border: 1px solid;
+    padding: 0 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+p.imgEdit a img{
+	display: block;
+	width:100px;
+	height:auto;
+	border:5px solid #fff;
+    margin: 0 0 10px 0px;
+}
+p.imgEdit a:hover img{
+	border:5px solid rgba(0,0,0,0.2);
+}
+
+p.nowImg img{
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
+p.nowImg_header img{
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+.cropper{
+	margin: 0 0 10px 0
+}
+
+/* - 保存完了した時のアナウンス - */
+
+.success, .message, .cake-error, p.error, .error-message{
+	text-align: center;
+    background: #fff;
+    color: #990000;
+    border: 10px solid #dbdbdb;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    font-size: 20px;
+    text-shadow: none;
+}
+
+/* - 画像を保存するときのボタン - */
+.btn-primary{
+    width: 110px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    border: 1px solid;
+    line-height: 1;
+    line-height: 30px;
+    padding: 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background: #9e7e00;
+    color: #fff;
+    letter-spacing: 0.5em;
+    border: #9e7e00;
+    background: #ccc500;
+    background: -moz-linear-gradient(top, #ccc500 0%, #9e7e00 100%);
+    background: -webkit-linear-gradient(top, #ccc500 0%,#9e7e00 100%);
+    background: linear-gradient(to bottom, #ccc500 0%,#9e7e00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccc500', endColorstr='#9e7e00',GradientType=0 );}

@@ -1,0 +1,10 @@
+講座ID,id,name,producturl,bigimage,description,price,retailprice,recommendable,coop_flg,page_class,extra_atp,delete_flg
+02001,20221201,親子で学ぶシリーズ,https://www.tac-school.co.jp/kouza_jituyo/1jituyo_message.html,zeiri.jpg,ースが選択できます！,100,,1,1,4,,0
+02001,22276,公認会計士｜2年チャレンジ本科生,https://www.tac-school.co.jp/kouza_kaikei/kaikei_crs_beginner_2chonka.html,kaikei01.jpg,,,,0,0,1,,0
+02001,22096,公認会計士｜2.5年チャレンジ本科生,https://www.tac-school.co.jp/kouza_kaikei/kaikei_crs_beginner_25chonka.html,kaikei01.jpg,,790000,,0,0,1,,0
+02001,13515,コース一覧｜公認会計士,https://www.tac-school.co.jp/kouza_kaikei/kaikei_crs_idx.html,tac_logo.jpg,,,,0,0,1,,0
+02001,13597,公認会計士｜短期集中L本科生,https://www.tac-school.co.jp/kouza_kaikei/kaikei_crs_beginner_tankilhonka.html,kaikei01.jpg,春夏期から始める超短期コース！,,,0,0,2,キャンペーン中！,0
+02001,13594,公認会計士｜1.5年S本科生,https://www.tac-school.co.jp/kouza_kaikei/kaikei_crs_beginner_15shonka.html,kaikei01.jpg,冬から始める方に最適なコース！,730000,,0,0,2,今すぐ資料請求,0
+02001,13614,公認会計士｜1.5年L本科生,https://www.tac-school.co.jp/kouza_kaikei/kaikei_crs_beginner_15lhonka.html,kaikei01.jpg,秋から始める方に最適なコース！,740000,,1,1,2,キャンペーン中！,0
+02001,13533,公認会計士｜2年S本科生,https://www.tac-school.co.jp/kouza_kaikei/kaikei_crs_beginner_2shonka.html,kaikei01.jpg,夏から始める方に最適なコース！,,,0,0,2,キャンペーン中！,0
+02001,13615,公認会計士｜2年L本科生,https://www.tac-school.co.jp/kouza_kaikei/campaign.html,kaikei01.jpg,春から始める安心のロングコース！,,,0,0,2,春割キャンペーン中！,0

@@ -1,0 +1,20 @@
+msgid "MESS_TOKYO"
+msgstr "Hello TOKYO {0}"
+
+msgid "MESS_OPA"
+msgstr "Hello OPA  {0}"
+
+msgid "LOGGED_OUT"
+msgstr "ログアウトしました。"
+
+msgid "LOGOUT"
+msgstr "ログアウト"
+
+msgid "BACK"
+msgstr "戻る"
+
+msgid "REGISTRATION"
+msgstr "登録"
+
+msgid "SELECT_ALL"
+msgstr "全て"

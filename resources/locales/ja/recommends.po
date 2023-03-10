@@ -1,0 +1,74 @@
+msgid "TITLE_HEAD"
+msgstr "おすすめコース"
+
+msgid "TITLE_HEAD_RECOMMENDS_EDIT"
+msgstr "おすすめコース編集"
+
+msgid "TITLE_HEAD_RECOMMENDS_EDIT_FINISH"
+msgstr "おすすめコース項目編集完了"
+
+msgid "TITLE_HEAD_RECOMMENDS_ADD"
+msgstr "おすすめコース新規登録"
+
+msgid "TITLE_HEAD_RECOMMENDS_ADD_FINISH"
+msgstr "おすすめコース項目追加完了"
+
+msgid "TITLE_HEAD_RECOMMENDS_DELETE_CONFIRM"
+msgstr "おすすめコース: 削除確認"
+
+msgid "TITLE_HEAD_RECOMMENDS_DELETED"
+msgstr "削除完了"
+
+msgid "TITLE_HEAD_RECOMMENDS_CHANGE_RECORDS_DELETE"
+msgstr "おすすめ講座: 一括削除確認"
+
+msgid "TITLE_HEAD_RECOMMENDS_CHANGE_RECORDS_VISIBLE"
+msgstr "おすすめ講座: 一括表示許可確認"
+
+msgid "TITLE_HEAD_RECOMMENDS_CHANGE_RECORDS_INVISIBLE"
+msgstr "おすすめ講座: 一括表示禁止確認"
+
+msgid "TITLE_HEAD_RECOMMENDS_DELETE_FINISH"
+msgstr "一括削除完了"
+
+msgid "TITLE_HEAD_RECOMMENDS_VISIBLE_FINISH"
+msgstr "処理完了"
+
+msgid "TITLE_HEAD_RECOMMENDS_INVISIBLE_FINISH"
+msgstr "処理完了"
+
+msgid "TITLE_HEAD_ERROR"
+msgstr "エラー"
+
+msgid "SORT_BY_COURSE_ORDER_ASC"
+msgstr "講座順 (昇順)"
+
+msgid "SORT_BY_COURSE_ORDER_DESC"
+msgstr "講座順 (降順)"
+
+msgid "SORT_BY_ID_ASC"
+msgstr "ID順 (昇順)"
+
+msgid "SORT_BY_ID_DESC"
+msgstr "ID順 (降順)"
+
+msgid "SORT_BY_SCHOOL_ORDER_ASC"
+msgstr "校舎順 (昇順)"
+
+msgid "SORT_BY_SCHOOL_ORDER_DESC"
+msgstr "校舎順 (降順)"
+
+msgid "SORT_BY_MODIFIED_ASC"
+msgstr "更新順 (昇順)"
+
+msgid "SORT_BY_MODIFIED_DESC"
+msgstr "更新順 (降順)"
+
+msgid "IS_ACTIVE_DISPLAY_STATE"
+msgstr "表示状態"
+
+msgid "IS_ACTIVE_DISPLAY"
+msgstr "表示"
+
+msgid "IS_ACTIVE_HIDDEN"
+msgstr "非表示"

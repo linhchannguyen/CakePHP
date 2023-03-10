@@ -1,0 +1,4 @@
+msgid "Hello"
+msgstr "Hello ai {0}"
+
+

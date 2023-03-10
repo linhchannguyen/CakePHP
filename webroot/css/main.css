@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+/** Tables **/
+
+
+
+/*
+table {
+    text-align: center;
+    vertical-align: center;
+    white-space: nowrap;
+    border-right:0;
+    clear: both;
+    color: #333;
+    margin-bottom: 10px;
+    width: 100%;
+}
+th {
+    border:0;
+    border-bottom:2px solid #555;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size:80%;
+    background-color: #DCDCDC;   
+}
+th.sokuhou {
+    border:0;
+    border-bottom:2px solid #555;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size:80%;
+    background-color: #DCDCDC;   
+}
+th a {
+    display: block;
+    padding: 2px 4px;
+    text-decoration: none;
+}
+th a.asc:after {
+    content: ' ⇣';
+}
+th a.desc:after {
+    content: ' ⇡';
+}
+
+table tr:nth-child(even) {
+    background: #E7E7CE;
+}
+
+table td {
+    text-align: center;
+    padding: 2px 5px;
+    white-space: nowrap;
+    font-size:90%;
+}
+
+td.actions {
+    text-align: center;
+    white-space: nowrap;
+}
+table td.actions a {
+    margin: 0px 6px;
+    padding:2px 5px;
+}
+
+td.error {
+    
+    font: 1em sans-serif;
+    color: red;
+}
+*/
+
+div.error-message {
+    
+    font: 1em sans-serif;
+    color: red;
+}
+
+div.message {
+    
+    font: 1em sans-serif;
+    color: red;
+}
+p.flash {
+    font: 1em sans-serif;
+    color: red;
+    
+}
+
+p.logout {
+    text-align: right;
+}
+
+.double {
+    margin-left: 2em;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.double ul {
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    list-style: none outside;
+}
+
+.double ul li {
+    margin: 0;
+    margin-bottom: 0.5em;
+    padding: 0;
+    float: left;
+    width: 200px;
+}
+
+form.auth {
+    margin: 0 auto;
+    width: 300px;
+    padding: 1em;
+    border: 1px solid #CCCC66;
+    background-color: #FFFFCC;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: auto;
+    margin-left: 1em;
+    text-align: right;
+    padding: 0px 10px 10px 0px;
+}
+
+input[type="text"] {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999; 
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-left: 1px;
+    margin-right: 5px;
+}
+input[type="number"] {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999; 
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-left: 1px;
+    margin-right: 5px;
+}
+input[type="text"].inputCategoryDisplayOrder ,input[type="text"].FileDisplayOrder {
+    font: 1em sans-serif;
+    width: 30px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999; 
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-left: 1px;
+    margin-right: 5px;
+}
+
+input[type="text"].auth,input[type="password"].auth {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    background-color: #ededed;
+
+}
+select.auth{
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+input[type="text"].auth:focus, input[type="password"].auth:focus {
+    background-color: white;
+}
+
+input[type="button"] {
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-left: 1px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+div.submit {
+    margin : 25px;
+    text-align: center;
+    width: auto;
+}
+
+.type_form {
+    background-color: #EFFFFF;
+    border: 1px solid #00CCFF;
+    padding: 1em 1em 2.5em 1em;
+    border-radius: 10px;
+}
+
+.formAdd {
+    margin: 0.5em 0 0.5em 0.5em;
+    padding: 1px;
+}
+
+.formRemove {
+    float: right;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    padding: 1px;    
+}
+
+.category_row {
+    background-color: #FFFFEF;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+    border: 1px solid #CCCC66;
+    padding: 1em 1em 2.5em 1em;
+    border-radius: 10px;
+}
+
+.rowAdd {
+    margin: 0.5em 0 0.5em 0.5em;
+    padding: 1px;
+}
+
+.rowRemove {
+    float: right;
+    margin: 0.5em 0 0.5em 0.5em;
+    padding: 1px;
+}
+
+.valid_category, .valid_file_url, .valid_day, .valid_title ,.valid_type  {
+    color: red;
+}
+/*
+.DateYear, .DateMonth, .DateDay, .DateHour, .DateMin {
+    cursor: pointer;
+}
+*/
+
+.headline {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.attension {
+    text-align: center;
+    color: red;
+    
+}
+
+.alert {
+    font-size:100%;
+    color : #ff0000;
+    padding-right: 1px;     
+}
+
+.course_title {
+    font-size: 2em;
+    padding-bottom: 1em
+}
+
+.logout {
+    float: right;
+}
+
+
+
+

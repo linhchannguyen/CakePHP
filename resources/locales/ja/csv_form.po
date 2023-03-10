@@ -1,0 +1,313 @@
+msgid "CSV_FORM_TITLE"
+msgstr "CSVファイルアップロード"
+
+msgid "CSV_NEWS_IMPORT_LABEL"
+msgstr "お知らせ"
+
+msgid "CSV_RECOMMEND_IMPORT_LABEL"
+msgstr "おすすめコース"
+
+msgid "CSV_EVENT_IMPORT_LABEL"
+msgstr "イベント情報"
+
+msgid "CSV_HOLIDAY_IMPORT_LABEL"
+msgstr "祝日情報"
+
+msgid "CSV_IMPORT_BTN"
+msgstr "アップロード"
+
+msgid "CSV_IMPORT_NOTICE"
+msgstr "※ 複数のCSVファイルを同時にアップロードすることはできません。"
+
+msgid "TOGGLE_TABLE_SCHOOL_BTN"
+msgstr "校舎コード表を展開/格納"
+
+msgid "TOGGLE_TABLE_KOUZA_BTN"
+msgstr "講座コード表を展開/格納"
+
+msgid "TOGGLE_TABLE_EVENT_TYPE_BTN"
+msgstr "イベント種別コード表を展開/格納"
+
+msgid "SCHOOL_NAME_COL"
+msgstr "校舎名"
+
+msgid "COURSE_NAME_COL"
+msgstr "講座名"
+
+msgid "EVENT_NAME_COL"
+msgstr "イベント名"
+
+msgid "CSV_NEWS_RECEIVE_TITLE"
+msgstr "お知らせCSV受信"
+
+msgid "CSV_NEWS_CONFIRM_TITLE"
+msgstr "新着情報 CSVデータ確認"
+
+msgid "CSV_NEWS_FINISH_TITLE"
+msgstr "新着情報 CSVデータ登録完了"
+
+msgid "CSV_RECOMMEND_RECEIVE_TITLE"
+msgstr "おすすめコースCSV受信"
+
+msgid "CSV_RECOMMEND_CONFIRM_TITLE"
+msgstr "おすすめコース CSVデータ確認"
+
+msgid "CSV_RECOMMEND_FINISH_TITLE"
+msgstr "おすすめコース CSVデータ登録完了"
+
+msgid "CSV_EVENT_RECEIVE_TITLE"
+msgstr "イベント情報CSV受信"
+
+msgid "CSV_EVENT_CONFIRM_TITLE"
+msgstr "イベント情報 CSVデータ確認"
+
+msgid "CSV_EVENT_FINISH_TITLE"
+msgstr "イベント情報 CSVデータ登録完了"
+
+msgid "CSV_HOLIDAY_RECEIVE_TITLE"
+msgstr "祝日情報CSV受信"
+
+msgid "CSV_HOLIDAY_CONFIRM_TITLE"
+msgstr "祝日情報 CSVデータ確認"
+
+msgid "CSV_HOLIDAY_FINISH_TITLE"
+msgstr "祝日情報 CSVデータ登録完了"
+
+msgid "CSV_UPLOAD_ERROR_TITLE"
+msgstr "エラー"
+
+msgid "CSV_UPLOAD_FAIL"
+msgstr "ファイルのアップロードに失敗しました。"
+
+msgid "CSV_OPEN_FAIL"
+msgstr "ファイルシステムエラー:CSVファイルのオープンに失敗しました。"
+
+msgid "CSV_PARSE_FAIL"
+msgstr "CSVファイルの解析に失敗しました。"
+
+msgid "CSV_GET_INFO_FAIL"
+msgstr "データベースエラー。CSV情報の取得に失敗しました。"
+
+msgid "CSV_REGISTER_FAIL"
+msgstr "データベースエラー。CSVファイル情報の登録に失敗しました。"
+
+msgid "CSV_DUPLICATE_DATA_REGISTER_FAIL"
+msgstr "登録済みの祝日情報を上書きしようとした可能性が高いです。"
+
+msgid "CSV_REGISTER_SUCCESS"
+msgstr "CSVデータを追加しました。"
+
+msgid "CSV_REGISTER_BTN"
+msgstr "このデータを登録"
+
+msgid "CSV_RETURN_BTN"
+msgstr "戻る"
+
+msgid "CSV_TABLE_SCHOOL_COL"
+msgstr "校舎"
+
+msgid "CSV_TABLE_KOUZA_COL"
+msgstr "講座"
+
+msgid "CSV_TABLE_EVENT_TYPE_COL"
+msgstr "種別"
+
+msgid "CSV_TABLE_DATE_COL"
+msgstr "日付"
+
+msgid "CSV_TABLE_TITLE_COL"
+msgstr "タイトル"
+
+msgid "CSV_TABLE_SUB_TITLE_COL"
+msgstr "サブタイトル"
+
+msgid "CSV_TABLE_URL_COL"
+msgstr "リンク"
+
+msgid "CSV_TABLE_URGENCY_COL"
+msgstr "緊急度"
+
+msgid "CSV_TABLE_ORDER_NO_COL"
+msgstr "並び補正"
+
+msgid "CSV_TABLE_DISPLAY_COL"
+msgstr "表示"
+
+msgid "CSV_TABLE_ENABLE_FROM_COL"
+msgstr "有効期間(始)"
+
+msgid "CSV_TABLE_ENABLE_TO_COL"
+msgstr "有効期間(終)"
+
+msgid "CSV_TABLE_DATE_TIME_COL"
+msgstr "日時"
+
+msgid "CSV_TABLE_ARTICLE_COL"
+msgstr "本文"
+
+msgid "CSV_TABLE_HOLIDAY_NAME_COL"
+msgstr "祝日名"
+
+msgid "CSV_LIMIT_ROWS"
+msgstr "ファイル全体のエラー数が{0}個を超えたので、解析処理を中止しました。"
+
+
+##### VALIDATE MESSAGE #####
+
+### NEWS VALIDATE ###
+
+msgid "VALIDATE_NEWS_SCHOOL_EMPTY"
+msgstr "【校舎ID】が入力されていません。"
+
+msgid "VALIDATE_NEWS_SCHOOL_INVALID"
+msgstr "【校舎ID】が不正です。"
+
+msgid "VALIDATE_NEWS_TITLE_EMPTY"
+msgstr "【タイトル】が入力されていません。"
+
+msgid "VALIDATE_NEWS_TITLE_MAX_LENGTH"
+msgstr "【タイトル】は{0}文字以内でご入力してください。"
+
+msgid "VALIDATE_NEWS_SUB_TITLE_MAX_LENGTH"
+msgstr "【サブタイトル】は{0}文字以内でご入力してください。"
+
+msgid "VALIDATE_NEWS_URL_MAX_LENGTH"
+msgstr "【URL】は{0}文字以内でご入力してください。"
+
+msgid "VALIDATE_NEWS_URL_FORMAT"
+msgstr "【URL】の書式が不正です。"
+
+msgid "VALIDATE_NEWS_DATE_EMPTY"
+msgstr "【お知らせの日付】が入力されていません。"
+
+msgid "VALIDATE_NEWS_DATE_FORMAT"
+msgstr "【お知らせの日付】が間違っています。"
+
+msgid "VALIDATE_NEWS_ENABLE_FROM_DATETIME_FORMAT"
+msgstr "【有効期間開始】日時が間違っています。"
+
+msgid "VALIDATE_NEWS_ENABLE_TO_DATETIME_FORMAT"
+msgstr "【有効期間終了】日時が間違っています。"
+
+msgid "VALIDATE_NEWS_ORDER_NO_EMPTY"
+msgstr "【並び順補正値】が入力されていません。"
+
+msgid "VALIDATE_NEWS_ORDER_NO_MIN_MAX_LENGHT"
+msgstr "【並び順補正値】は{0}以上{1}以下の整数で指定してください。"
+
+msgid "VALIDATE_NEWS_ACTIVE_EMPTY"
+msgstr "【表示許可フラグ値】が入力されていません。"
+
+msgid "VALIDATE_NEWS_ACTIVE_RANGE"
+msgstr "【表示許可フラグ値】は0(非表示)か1(表示)で指定してください。"
+
+### RECOMMEND VALIDATE ###
+
+msgid "VALIDATE_RECOMMEND_SCHOOL_EMPTY"
+msgstr "【校舎ID】が入力されていません。"
+
+msgid "VALIDATE_RECOMMEND_SCHOOL_INVALID"
+msgstr "【校舎ID】が不正です。"
+
+msgid "VALIDATE_RECOMMEND_KOUZA_EMPTY"
+msgstr "【講座ID】が入力されていません。"
+
+msgid "VALIDATE_RECOMMEND_KOUZA_INVALID"
+msgstr "【講座ID】が不正です。"
+
+msgid "VALIDATE_RECOMMEND_TITLE_EMPTY"
+msgstr "【タイトル】が入力されていません。"
+
+msgid "VALIDATE_RECOMMEND_TITLE_MAX_LENGTH"
+msgstr "【タイトル】は{0}文字以内でご入力してください。"
+
+msgid "VALIDATE_RECOMMEND_TITLE_SUB_MAX_LENGTH"
+msgstr "【サブタイトル】は{0}文字以内でご入力してください。"
+
+msgid "VALIDATE_RECOMMEND_URL_MAX_LENGTH"
+msgstr "【URL】は{0}文字以内でご入力してください。"
+
+msgid "VALIDATE_RECOMMEND_URL_FORMAT"
+msgstr "【URL】の書式が不正です。"
+
+msgid "VALIDATE_RECOMMEND_IMAGE_URL_MAX_LENGTH"
+msgstr "【画像URL{0}】は{1}文字以内でご入力してください。"
+
+msgid "VALIDATE_RECOMMEND_SUB_TITLE_MAX_LENGTH"
+msgstr "【リンク名称{0}】は{1}文字以内でご入力してください。"
+
+msgid "VALIDATE_RECOMMEND_SUB_URL_MAX_LENGTH"
+msgstr "【リンクURL{0}】は{1}文字以内でご入力してください。"
+
+msgid "VALIDATE_RECOMMEND_ENABLE_FROM_DATETIME_FORMAT"
+msgstr "【有効期間開始】日時が間違っています。"
+
+msgid "VALIDATE_RECOMMEND_ENABLE_TO_DATETIME_FORMAT"
+msgstr "【有効期間終了】日時が間違っています。"
+
+msgid "VALIDATE_RECOMMEND_ORDER_NO_EMPTY"
+msgstr "【並び順補正値】が入力されていません。"
+
+msgid "VALIDATE_RECOMMEND_ORDER_NO_MIN_MAX_LENGHT"
+msgstr "【並び順補正値】は{0}以上{1}以下の整数で指定してください。"
+
+msgid "VALIDATE_RECOMMEND_ACTIVE_EMPTY"
+msgstr "【表示許可フラグ値】が入力されていません。"
+
+msgid "VALIDATE_RECOMMEND_ACTIVE_RANGE"
+msgstr "【表示許可フラグ値】は0(非表示)か1(表示)で指定してください。"
+
+### EVENT VALIDATE ###
+
+msgid "VALIDATE_EVENT_SCHOOL_EMPTY"
+msgstr "【校舎ID】が入力されていません。"
+
+msgid "VALIDATE_EVENT_SCHOOL_INVALID"
+msgstr "【校舎ID】が不正です。"
+
+msgid "VALIDATE_EVENT_KOUZA_EMPTY"
+msgstr "【講座ID】が入力されていません。"
+
+msgid "VALIDATE_EVENT_KOUZA_INVALID"
+msgstr "【講座ID】が不正です。"
+
+msgid "VALIDATE_EVENT_TYPE_INVALID"
+msgstr "【イベント種別】が入力されていません。"
+
+msgid "VALIDATE_EVENT_DATETIME_FORMAT"
+msgstr "【日時】が間違っています。"
+
+msgid "VALIDATE_EVENT_TITLE_EMPTY"
+msgstr "【タイトル】が入力されていません。"
+
+msgid "VALIDATE_EVENT_TITLE_MAX_LENGTH"
+msgstr "【タイトル】は{0}文字以内でご入力してください。"
+
+msgid "VALIDATE_EVENT_BODY_MAX_LENGTH"
+msgstr "【本文】は{0}文字以内でご入力ください。"
+
+msgid "VALIDATE_EVENT_ORDER_NO_EMPTY"
+msgstr "【並び順補正値】が入力されていません。"
+
+msgid "VALIDATE_EVENT_ORDER_NO_MIN_MAX_LENGHT"
+msgstr "【並び順補正値】は{0}以上{1}以下の整数で指定してください。"
+
+msgid "VALIDATE_EVENT_ACTIVE_EMPTY"
+msgstr "【表示許可フラグ値】が入力されていません。"
+
+msgid "VALIDATE_EVENT_ACTIVE_RANGE"
+msgstr "【表示許可フラグ値】は0(非表示)か1(表示)で指定してください。"
+
+### HOLIDAY VALIDATE ###
+
+msgid "VALIDATE_HOLIDAY_DATE_EMPTY"
+msgstr "【日付】が入力されていません。"
+
+msgid "VALIDATE_HOLIDAY_DATE_FORMAT"
+msgstr "【日付】が間違っています。"
+
+msgid "VALIDATE_HOLIDAY_NAME_EMPTY"
+msgstr "【祝日名】が入力されていません。"
+
+msgid "VALIDATE_HOLIDAY_NAME_MAX_LENGTH"
+msgstr "【祝日名】は{0}文字以内でご入力してください。"

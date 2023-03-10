@@ -1,0 +1,17 @@
+msgid "UPDATED_DATA"
+msgstr "データを更新しました"
+
+msgid "SAVE_SETTINGS"
+msgstr "設定を保存する"
+
+msgid "NOTICE_SETTINGS"
+msgstr "※チェックボックスを外すと、該当する種別の情報が「講座配下ページ」に表示されなくなります。"
+
+msgid "TITLE_HEAD"
+msgstr "講座の種別管理"
+
+msgid "DATABASE_ERROR_FAILED_GET_INFORMATION"
+msgstr "データベースエラー。種別情報の取得に失敗しました。"
+
+msgid "PAGE_ERROR_TITLE"
+msgstr "エラー"

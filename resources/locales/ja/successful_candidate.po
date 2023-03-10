@@ -1,0 +1,233 @@
+msgid "PUBLISHING_CONTROL"
+msgstr "公開制御"
+
+msgid "EDIT"
+msgstr "修正"
+
+msgid "ADD_FORM"
+msgstr "フォーム追加"
+
+msgid "TITLE_ADD_EDIT_FORM"
+msgstr "フォーム編集・追加"
+
+msgid "LABEL_FORM_ID"
+msgstr "フォームID"
+
+msgid "LABEL_FORM_NAME"
+msgstr "フォーム名"
+
+msgid "SAVE"
+msgstr "保存"
+
+msgid "TITLE_LIST_OF_REGISTERED_MODULES"
+msgstr "登録済みモジュール一覧"
+
+msgid "MAXIMUM_DISPLAY_MODULES"
+msgstr "閲覧ページには最大{0}個のモジュールまでしか表示できません。"
+
+msgid "PUBLIC_MODULE_REQUIRED"
+msgstr "※公開モジュールは必須です"
+
+msgid "ADD_MODULE"
+msgstr "モジュール追加"
+
+msgid "MODULE_NAME"
+msgstr "モジュール名"
+
+msgid "MODULE_TYPE"
+msgstr "モジュールの種別"
+
+msgid "INPUT_REQUIRED"
+msgstr "入力必須"
+
+msgid "SHOW_ON_BROWSER_PAGE"
+msgstr "閲覧ページに表示する"
+
+msgid "FORM_DISPLAY_ORDER"
+msgstr "フォーム表示順"
+
+msgid "VIEWED_PAGE_DISPLAY_ORDER"
+msgstr "閲覧ページ表示順"
+
+msgid "ACTION"
+msgstr "アクション"
+
+msgid "FIXED_PREFIX"
+msgstr "【固定】"
+
+msgid "GENERAL_PURPOSE_PREFIX"
+msgstr "【汎用】"
+
+msgid "DELETE"
+msgstr "削除"
+
+msgid "COMFIRM_DELETE"
+msgstr "削除しますか？"
+
+msgid "USER_LIST"
+msgstr "ユーザー一覧　"
+
+msgid "COURSE_LIST"
+msgstr "講座一覧　"
+
+msgid "LOGIN_FAILED"
+msgstr "ログインに失敗しました。"
+
+msgid "INCORRECT_USERNAME_PASSWORD"
+msgstr "ユーザー名かパスワードが違います。"
+
+msgid "REGISTER_COMPLETED"
+msgstr "登録が完了しました。"
+
+msgid "CONTENT_INCOMPLETE"
+msgstr "内容に不備があります。"
+
+msgid "FIXED_MODULE"
+msgstr "固定モジュール"
+
+msgid "MEMBERSHIP_NUMBER_MODULE"
+msgstr "会員番号モジュール"
+
+msgid "NAME_MODULE"
+msgstr "氏名モジュール"
+
+msgid "FURIGANA_MODULE"
+msgstr "フリガナモジュール"
+
+msgid "DATE_OF_BIRTH_MODULE"
+msgstr "生年月日モジュール"
+
+msgid "EMAIL_ADDRESS_MODULE"
+msgstr "メールアドレスモジュール"
+
+msgid "PUBLIC_PRIVATE_MODULE"
+msgstr "公開・非公開モジュール"
+
+msgid "PUBLIC_ANONYMOUS_PRIVATE_MODULE"
+msgstr "公開・匿名・非公開モジュール"
+
+msgid "PHOTO_UPLOAD_MODULE"
+msgstr "写真アップロードモジュール"
+
+msgid "TAX_ACCOUNTANT_LIST_MODULE"
+msgstr "税理士リストモジュール"
+
+msgid "TAX_ACCOUNTANT_SUBJECT_MODULE"
+msgstr "税理士科目選択モジュール"
+
+msgid "STUDY_AREA_TEACHER_MODULE"
+msgstr "受講地区（通信）/講師モジュール"
+
+msgid "GENERAL_PURPOSE_MODULE"
+msgstr "汎用モジュール"
+
+msgid "SINGLE_BYTE_ALPHANUMERIC_TEXT_MODULE"
+msgstr "半角英数テキストモジュール"
+
+msgid "RADIO_MODULE"
+msgstr "ラジオモジュール"
+
+msgid "CHECKBOX_MODULE"
+msgstr "チェックボックスモジュール"
+
+msgid "LIST_MODULE"
+msgstr "リストモジュール"
+
+msgid "FREE_COMMENT_MODULE"
+msgstr "フリーコメントモジュール"
+
+msgid "ADDITION"
+msgstr "追加"
+
+msgid "DELETE_COMPLETED"
+msgstr "削除が完了しました。"
+
+msgid "NUMBER_ONLY"
+msgstr "*数値のみ"
+
+// start - edit_module layout
+msgid "HEADLINE_NAME"
+msgstr "見出し名"
+
+msgid "HEADING_LEVEL"
+msgstr "見出しレベル"
+
+msgid "TOP_TEXT"
+msgstr "上テキスト"
+
+msgid "BOTTOM_TEXT"
+msgstr "下テキスト"
+
+msgid "MAKE_IT_REQUIRED"
+msgstr "入力必須にする"
+
+msgid "BROWSING_PAGE_PRIVATE"
+msgstr "閲覧ページは非公開"
+
+msgid "FORM_PAGE_DISPLAY_ORDER"
+msgstr "フォームページ 表示順"
+
+msgid "USER_VIEW_PAGE_DISPLAY_ORDER"
+msgstr "ユーザー閲覧ページ 表示順"
+
+msgid "INITIAL_VALUE"
+msgstr "初期値"
+
+msgid "ONLY_N_MODULES_DISPLAYED_ON_BROWSE_PAGE"
+msgstr "閲覧ページに表示できるのは{0}個のモジュールまでです。"
+// end - edit_module
+
+// start - category_list layout
+msgid "ADD_CATEGORY"
+msgstr "講座登録"
+
+msgid "COURSE_NAME"
+msgstr "講座名"
+
+msgid "REGISTED_DATE"
+msgstr "登録日"
+
+msgid "UPDATE_DATE"
+msgstr "更新日"
+// end - category_list layout
+
+// start - add_category layout
+msgid "REGISTRATION_COMPLETED"
+msgstr "登録完了！"
+
+msgid "NEED_FIX"
+msgstr "修正が必要です"
+
+msgid "COURSE_REGISTRATION"
+msgstr "講座登録"
+// end - add_category layout
+
+msgid "AUTHORITY"
+msgstr "権限"
+
+msgid "EMAIL_ADDRESS"
+msgstr "メールアドレス"
+
+msgid "USER_REGISTRATION"
+msgstr "ユーザー登録"
+
+msgid "SELECT_COURSE"
+msgstr "講座を選んでください。"
+
+msgid "COURSE"
+msgstr "講座"
+
+msgid "ALL_COURSES"
+msgstr "全講座(最高管理者のみ)"
+
+msgid "USER_ID"
+msgstr "ユーザID"
+
+msgid "PASSWORD"
+msgstr "パスワード"
+
+msgid "LOGGED_IN_TO_USED"
+msgstr "ご利用されるにはログインが必要です。"
+
+msgid "CHECK_LOGIN_ID_OR_PASSWORD"
+msgstr "パスワードもしくはログインIDをご確認下さい。"

@@ -1,0 +1,37 @@
+div.jspContainer {
+	position: relative;
+	overflow: hidden;
+}
+div.jspPane {
+	position: absolute;
+}
+div.jspVerticalBar {
+	position: absolute;
+	width: 10px;
+	height: 100%;
+	top: 0px;
+	right: 0px;
+	background-color: #e6e6e6;
+}
+div.jspVerticalBar * {
+	margin: 0px;
+	padding: 0px;
+}
+div.jspCap {
+	display: none;
+}
+div.jspTrack {
+	position: relative;
+}
+div.jspDrag {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	cursor: pointer;
+	background-color: #808080;
+}
+div.scroll-pane {
+	width: 500px;
+	height: 250px;
+	overflow: auto;
+}

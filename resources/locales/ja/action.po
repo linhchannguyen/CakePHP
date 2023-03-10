@@ -1,0 +1,8 @@
+msgid "DELETE"
+msgstr "削除"
+
+msgid "EDIT"
+msgstr "編集"
+
+msgid "SAVE"
+msgstr "保存"

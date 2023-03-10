@@ -1,0 +1,188 @@
+msgid "MESS_TOKYO"
+msgstr "Hello TOKYO {0}"
+
+msgid "MESS_OPA"
+msgstr "Hello OPA Mess  {0}"
+
+msgctxt "------------criteo_feed"------------"
+msgid "CRITEO_TABLE_VALID_COURSE_ID_CUSTOM"
+msgstr "新規登録時の「対象講座」は「全て」以外を選択してください。"
+
+msgid "CRITEO_TABLE_VALID_ID_MAXLENGTH"
+msgstr "「ページID」は50文字以下で設定してください。"
+
+msgid "CRITEO_TABLE_VALID_ID_REQUIRED"
+msgstr "「ページID」は入力必須です。"
+
+msgid "CRITEO_TABLE_VALID_ID_CUSTOM"
+msgstr "「ページID」半角数字で入力してください。"
+
+msgid "CRITEO_TABLE_VALID_NAME_MAXLENGTH"
+msgstr "「ページ名」は500文字以下で設定してください。"
+
+msgid "CRITEO_TABLE_VALID_URL_MAXLENGTH"
+msgstr "「url」は1024文字以下で設定してください。"
+
+msgid "CRITEO_TABLE_VALID_URL_REQUIRED"
+msgstr "「url」は入力必須です。"
+
+msgid "CRITEO_TABLE_VALID_URL_UNIQUE"
+msgstr "入力された「url」は既に登録済みです。"
+
+msgid "CRITEO_TABLE_VALID_URL"
+msgstr "「url」の形式が間違っています。"
+
+msgid "CRITEO_TABLE_VALID_BIGIMAGE_MAXLENGTH"
+msgstr "「bigimage」は1024文字以下で設定してください。"
+
+msgid "CRITEO_TABLE_VALID_BIGIMAGE_REQUIRED"
+msgstr "「bigimage」は入力必須です。"
+
+msgid "CRITEO_TABLE_VALID_BIGIMAGE_CUSTOM"
+msgstr "「bigimage」半角英数字で入力してください。"
+
+msgid "CRITEO_TABLE_VALID_DESCRIPTION_MAXLENGTH"
+msgstr "「description」は500文字以下で設定してください。"
+
+msgid "CRITEO_TABLE_VALID_PRICE_CUSTOM"
+msgstr "「価格」半角数字で入力してください。"
+
+msgid "CRITEO_TABLE_VALID_EXTRA_ATP_MAXLENGTH"
+msgstr "「extra_atp」は200文字以下で設定してください。"
+
+msgid "CRITEO_TABLE_VALID_EXTRA_ATP_MAXLENGTH"
+msgstr "「extra_atp」は200文字以下で設定してください。"
+msgid "PLEASE_ENTER_COURSE_ID"
+msgstr "講座IDを入力してください。"
+
+msgid "COURSE_ID_OF_CHARACTERS"
+msgstr "講座IDは{0}文字以上{1}文字以下で入力してください。"
+
+msgid "PASSWORD_OF_CHARACTERS"
+msgstr "パスワードは{0}文字以上{1}文字以下で入力してください。"
+
+msgid "PLEASE_ENTER_HALFWIDTH_ALPHANUMERIC"
+msgstr "半角英数字で入力してください。"
+
+msgid "USERNAME_MUST_BE_N_CHARACTERS_OR_LESS"
+msgstr "ユーザーネームは{0}文字以下にしてください。"
+
+msgid "PASSWORD_MUST_BE_N_CHARACTERS_OR_LESS"
+msgstr "パスワードは{0}文字以下にしてください。"
+
+msgid "EMPTY_USERID"
+msgstr "ユーザーIDが未入力です。"
+
+msgid "EMPTY_PASSWORD"
+msgstr "パスワードが未入力です。"
+
+msgid "USERID_ONLY_USING_HALF_WIDTH_ALPHANUMERIC"
+msgstr "ユーザーIDは半角英数字と[_][-][.][@]のみで入力してください。"
+
+msgid "PASSWORD_ONLY_USING_HALF_WIDTH_ALPHANUMERIC"
+msgstr "パスワードは半角英数字と[_][-][.][@]のみで入力してください。"
+
+msgid "USERID_ALREADY_IN_USE"
+msgstr "同じユーザーIDが既に使用されています。"
+
+msgid "FORMAT_COURSE_INCORECT"
+msgstr "「講座」が不正です。"
+
+msgid "FORMAT_RECORD_DAY_FROM_INCORECT"
+msgstr "「From」の形式が間違っています。"
+
+msgid "FORMAT_RECORD_DAY_TO_INCORECT"
+msgstr "「To」の形式が間違っています。"
+
+msgid "NEWS_FORMAT_URL_INVALID"
+msgstr "【URL】の書式が不正です。"
+
+msgid "NEWS_FILE_UPLOAD_FAIL"
+msgstr "ファイルのアップロードに失敗しました。"
+
+msgid "NEWS_SELECT_SCHOOL_REQUIRED"
+msgstr "【校舎】を選択してください。"
+
+msgid "NEWS_SELECT_YM_TITLE"
+msgstr "【タイトル】の年-月を選択してください。"
+
+msgid "NEWS_SELECT_D_TITLE"
+msgstr "【タイトル】の日付を選択してください。"
+
+msgid "NEWS_TITLE_REQUIRED"
+msgstr "【タイトル】を入力してください。"
+
+msgid "NEWS_LINK_TYPE_REQUIRED"
+msgstr "【リンク種別】を選択してください。"
+
+msgid "NEWS_ENTER_SORT_ORDER"
+msgstr "【並び順補正値】を入力してください(デフォルトは0です)。"
+
+msgid "NEWS_IS_ACTIVE_REQUIRED"
+msgstr "【表示許可フラグ値】を選択してください。"
+
+msgid "NEWS_DATE_INVALID"
+msgstr "【日付】が間違っています。"
+
+msgid "NEWS_DATETIME_INVALID"
+msgstr "【日時】が間違っています。"
+
+msgid "RECOMMENDS_SELECT_SCHOOL_REQUIRED"
+msgstr "【校舎】を選択してください。"
+
+msgid "RECOMMENDS_SELECT_COURSE_REQUIRED"
+msgstr "【講座】を選択してください。"
+
+msgid "RECOMMENDS_TITLE_REQUIRED"
+msgstr "【タイトル】を入力してください。"
+
+msgid "RECOMMENDS_FORMAT_URL_INVALID"
+msgstr "【URL】の書式が不正です。"
+
+msgid "RECOMMENDS_LINK_TYPE_REQUIRED"
+msgstr "【リンク種別】を選択してください。"
+
+msgid "RECOMMENDS_ENTER_SORT_ORDER"
+msgstr "【並び順補正値】を入力してください(デフォルトは0です)。"
+
+msgid "RECOMMENDS_IS_ACTIVE_REQUIRED"
+msgstr "【表示許可フラグ値】を選択してください。"
+
+msgid "RECOMMENDS_DATETIME_INVALID"
+msgstr "【日時】が間違っています。"
+
+msgid "RECOMMENDS_FILE_UPLOAD_FAIL"
+msgstr "ファイルのアップロードに失敗しました。"
+
+msgid "EVENTS_TITLE_REQUIRED"
+msgstr "【タイトル】を入力してください。"
+
+msgid "EVENTS_SELECT_SCHOOL_REQUIRED"
+msgstr "【校舎】を選択してください。"
+
+msgid "EVENTS_SELECT_KOUZA_REQUIRED"
+msgstr "【講座】を選択してください。"
+
+msgid "EVENTS_SELECT_EVENT_TYPE_REQUIRED"
+msgstr "【イベント種別】を選択してください。"
+
+msgid "EVENTS_SELECT_YM"
+msgstr "【イベントの年-月】を選択してください。"
+
+msgid "EVENTS_SELECT_DAY"
+msgstr "【イベントの日付】を選択してください。"
+
+msgid "EVENTS_SELECT_TIME_H"
+msgstr "【イベントの時刻(時)】を選択してください。"
+
+msgid "EVENTS_SELECT_TIME_M"
+msgstr "【イベントの時刻(分)】を選択してください。"
+
+msgid "EVENTS_ENTER_SORT_ORDER"
+msgstr "【並び順補正値】を入力してください(デフォルトは0です)。"
+
+msgid "EVENTS_IS_ACTIVE_REQUIRED"
+msgstr "【表示許可フラグ値】を選択してください。"
+
+msgid "EVENTS_DATETIME_INVALID"
+msgstr "【日時】が間違っています。"

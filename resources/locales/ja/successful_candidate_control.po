@@ -1,0 +1,35 @@
+msgid "CSV_DOWNLOAD"
+msgstr "CSVダウンロード"
+
+msgid "PREVIEW_SITE_PUBLIS"
+msgstr "プレビュー（SitePublisにログインしてください）"
+
+msgid "PUBLIC_CONTROL_LOCK"
+msgstr "公開制御ロック"
+
+msgid "NUMBER_OF_PEOPLE"
+msgstr "人数表示"
+
+msgid "SEND_MAIL"
+msgstr "メール送信"
+
+msgid "PUBLISH"
+msgstr "掲載"
+
+msgid "UNCOMFIRMED"
+msgstr "未確認"
+
+msgid "REGISTED_DATE"
+msgstr "登録日"
+
+msgid "PASSED_THIS_TIME"
+msgstr "今回合格"
+
+msgid "ERROR_CHECK_NETWORK_ENVIRONMENT"
+msgstr "ネットワーク環境をご確認ください。"
+
+msgid "ERROR_SELECT_USER_TO_EDIT"
+msgstr "編集するユーザーを選択してください。"
+
+msgid "SAVE"
+msgstr "保存"

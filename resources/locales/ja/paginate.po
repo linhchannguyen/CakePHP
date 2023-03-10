@@ -1,0 +1,11 @@
+msgid "BTN_PREV_SCHOOL_CMS"
+msgstr "前へ"
+
+msgid "BTN_NEXT_SCHOOL_CMS"
+msgstr "次へ"
+
+msgid "FIRST_PAGE_SCHOOL_CMS"
+msgstr "[先頭]"
+
+msgid "LAST_PAGE_SCHOOL_CMS"
+msgstr "[最後]"

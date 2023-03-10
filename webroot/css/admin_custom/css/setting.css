@@ -1,0 +1,406 @@
+/* -*- mode:css; coding:utf-8-unix -*- */
+@charset "utf-8";
+
+
+/*------------------------------------------------
+ *
+ * Structure Module
+ *
+ *-----------------------------------------------*/
+html {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+body {
+  height: 100%;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+/*  font-family: Arial, Helvetica, sans-serif; */
+   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro W3", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", san-serif;
+}
+
+
+/*------------------------------------------------
+ *
+ * Text Module
+ *
+ *-----------------------------------------------*/
+p,
+pre,
+address,
+cite {
+  margin: 0.5em 20px;
+  font-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.5em 20px;
+}
+
+h1 {
+  font-size: 189%;
+}
+
+h2 {
+  font-size: 159%;
+}
+
+h3 {
+  font-size: 144%;
+}
+
+h4 {
+  font-size: 122%;
+}
+
+h5 {
+  font-size: 107%;
+}
+
+h6 {
+  font-size: 107%;
+}
+
+pre {
+  padding: 0.5em 10px;
+  border: 1px dotted #aaa;
+  width: 90%;
+  overflow: scroll;
+  color: #333;
+  background-color: #f5f5f5;
+  font-family: monospace;
+}
+
+pre[title]::before {
+  margin-bottom: 0.8em;
+  padding: 0 10px;
+  display: block;
+  content: attr(title);
+  color: #000;
+  background-color: #fff;
+}
+
+blockquote {
+  margin: 1.5em 20px;
+  padding: 1px 0;
+  border: 3px solid #eee;
+  background-color: #fff;
+}
+
+blockquote * {
+  color: #666;
+}
+
+blockquote[title]:before {
+  margin: 2px 2px 1em 2px;
+  padding: 0.1em 16px;
+  display: block;
+  content: attr(title);
+  background-color: #f5f5f5;
+}
+
+blockquote[cite]:after {
+  padding: 0.8em 20px;
+  display: block;
+  content: attr(cite);
+  color: #333;
+  text-align: right;
+}
+
+cite {
+  display: block;
+  color: #333;
+  text-align: right;
+}
+
+em {
+  font-weight: bold;
+}
+
+strong {
+  color: #ff4500;
+}
+
+code {
+  font-family: monospace;
+}
+
+abbr,
+acronym {
+  border-bottom: 1px dotted #aaa;
+  cursor: help;
+}
+
+kbd {
+  border: 1px solid #ccc;
+  padding: 0 0.3em;
+  background-color: #f5f5f5;
+  font-family: monospace;
+}
+
+
+/*------------------------------------------------
+ *
+ * Hypertext Module
+ *
+ *-----------------------------------------------*/
+
+a:link {
+  color: #005585;
+}
+
+a:visited {
+  color: #818f98;
+}
+
+a:hover {
+  color: #80af00;
+}
+
+
+/*------------------------------------------------
+ *
+ * List Module
+ *
+ *-----------------------------------------------*/
+ul,
+ol,
+dl {
+  margin: 1em 20px;
+  padding: 1px 0;
+  list-style-position: inside;
+}
+
+/* new */
+/* dt に縦方向の margin をとると float したとき dd の3行目以降が左ずれる */
+li,
+dd {
+  margin: 0.1em 10px;
+}
+
+dd {
+  margin-bottom: 0.6em;
+  color: #666;
+}
+/* end new */
+
+/* old */
+/*
+li,
+dt,
+dd {
+  margin: 0.1em 10px;
+}
+
+dt {
+  margin-top: 0.6em;
+}
+
+dd {
+  margin-bottom: 0.6em;
+  color: #666;
+}
+*/
+/* end old */
+
+li li,
+li p,
+li pre,
+li dt,
+li dd,
+dd li,
+dd p,
+dd pre,
+dd dt,
+dd dd {
+  font-size: 100%;
+}
+
+li ul,
+li ol,
+li dl,
+li p,
+dd ul,
+dd ol,
+dd dl,
+dd p {
+  margin: 0.1em 10px;
+}
+
+
+/*------------------------------------------------
+ *
+ * Edit Module
+ *
+ *-----------------------------------------------*/
+/*------------------------------------------------
+ *
+ * Forms Module
+ *
+ *-----------------------------------------------*/
+/*------------------------------------------------
+ *
+ * Tables Module
+ *
+ *-----------------------------------------------*/
+/*------------------------------------------------
+ *
+ * Image Module
+ *
+ *-----------------------------------------------*/
+img {
+  display: block;
+}
+
+
+/*------------------------------------------------
+ *
+ * Object Module
+ *
+ *-----------------------------------------------*/
+object,
+embed {
+  margin: 1em 20px;
+}
+
+
+/*------------------------------------------------
+ *
+ * Display Color
+ *
+ *-----------------------------------------------*/
+.f_black {
+  color: #000000;
+}
+
+.f_gray {
+  color: #808080;
+}
+
+.f_silver{
+  color: #c0c0c0;
+}
+
+.f_white {
+  color: #ffffff;
+}
+
+.f_red {
+  color: #ff0000;
+}
+
+.f_yellow {
+  color: #ffff00;
+}
+
+.f_lime {
+  color: #00ff00;
+}
+
+.f_aqua {
+  color: #00ffff;
+}
+
+.f_blue {
+  color: #0000ff;
+}
+
+.f_fuchsia {
+  color: #ff00ff;
+}
+
+.f_maroon {
+  color: #800000;
+}
+
+.f_olive {
+  color: #808000;
+}
+
+.f_green {
+  color: #008000;
+}
+
+.f_teal {
+  color: #008080;
+}
+
+.f_navy {
+  color: #000080;
+}
+
+.f_purple {
+  color: #800080;
+}
+
+
+.b_black {
+  background-color: #000000;
+}
+
+.b_gray {
+  background-color: #808080;
+}
+
+.b_silver{
+  background-color: #c0c0c0;
+}
+
+.b_white {
+  background-color: #ffffff;
+}
+
+.b_red {
+  background-color: #ff0000;
+}
+
+.b_yellow {
+  background-color: #ffff00;
+}
+
+.b_lime {
+  background-color: #00ff00;
+}
+
+.b_aqua {
+  background-color: #00ffff;
+}
+
+.b_blue {
+  background-color: #0000ff;
+}
+
+.b_fuchsia {
+  background-color: #ff00ff;
+}
+
+.b_maroon {
+  background-color: #800000;
+}
+
+.b_olive {
+  background-color: #808000;
+}
+
+.b_green {
+  background-color: #008000;
+}
+
+.b_teal {
+  background-color: #008080;
+}
+
+.b_navy {
+  background-color: #000080;
+}
+
+.b_purple {
+  background-color: #800080;
+}

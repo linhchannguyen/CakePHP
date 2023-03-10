@@ -1,0 +1,68 @@
+msgid "PAGE_ERROR_TITLE"
+msgstr "エラー"
+
+msgid "QUERY_DATABASE_ERROR"
+msgstr "データベースエラー。祝日情報の取得に失敗しました。"
+
+msgid "DELETE_DATABASE_ERROR"
+msgstr "データベースエラー。祝日情報のレコード削除に失敗しました。"
+
+msgid "HOLIDAY_LIST_TITLE"
+msgstr "祝日管理"
+
+msgid "HOLIDAY_CONFIRM_DELETE_TITLE"
+msgstr "祝日管理: 一括削除確認"
+
+msgid "HOLIDAY_FINISH_DELETE_TITLE"
+msgstr "祝日管理: 一括削除完了"
+
+msgid "PAGINATE_FIRST"
+msgstr "[先頭]"
+
+msgid "PAGINATE_LAST"
+msgstr "[最後]"
+
+msgid "PAGINATE_BACK"
+msgstr "前へ"
+
+msgid "PAGINATE_NEXT"
+msgstr "次へ"
+
+msgid "BTN_CHECK_ALL"
+msgstr "すべて選択"
+
+msgid "BTN_UNCHECK_ALL"
+msgstr "すべて選択解除"
+
+msgid "BTN_REVERT_CHECK"
+msgstr "選択状態を反転する"
+
+msgid "BTN_DELETE_CHECKED"
+msgstr "マークした項目を削除"
+
+msgid "BTN_DELETE_CONFIRM"
+msgstr "削除します"
+
+msgid "BTN_BACK"
+msgstr "戻る"
+
+msgid "BTN_BACK_TO_LIST"
+msgstr "祝日リスト画面に戻ります"
+
+msgid "HOLIDAY_DATE_COL"
+msgstr "日付"
+
+msgid "HOLIDAY_NAME_COL"
+msgstr "祝日名"
+
+msgid "HOLIDAY_CREATE_DATE_COL"
+msgstr "作成日時"
+
+msgid "HOLIDAY_MODIFY_DATE_COL"
+msgstr "更新日時"
+
+msgid "HOLIDAYS_LIST_DELETE"
+msgstr "以下のデータを削除します。"
+
+msgid "HOLIDAYS_LIST_DELETED_SUCCESS"
+msgstr "削除完了しました。"

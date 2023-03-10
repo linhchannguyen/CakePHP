@@ -1,0 +1,75 @@
+msgid "MESS_TOKYO"
+msgstr "Hello TOKYO {0}"
+
+msgid "MESS_OPA"
+msgstr "Hello OPA Mess  {0}"
+
+msgid "MESS_ERROR_COURSE_NOT_MATCH"
+msgstr "選択した講座名と講座IDが一致しません。"
+
+msgid "MESS_INCORRECT_USERNAME_PASSWORD"
+msgstr "ユーザー名かパスワードが違います。"
+
+msgid "REGISTRATION_COMPLETED"
+msgstr "登録完了しました。"
+
+msgid "DELETE_COMPLETED"
+msgstr "削除しました。"
+
+msgid "DELETE_FAILED"
+msgstr "削除しました。"
+
+msgid "UPDATE_FAILED"
+msgstr "更新失敗"
+
+msgid "UPDATE_COMPLETED"
+msgstr "更新完了しました。"
+
+msgid "NEW_REGISTRATION_COMPLETED"
+msgstr "新規登録完了しました。"
+
+msgid "DELETE_COMFIRM"
+msgstr "削除してよろしいですか?"
+
+msgid "DELETE_CANCELED"
+msgstr "削除をキャンセルしました。"
+
+msgctxt "------------criteo_feed"------------"
+msgid "UPDATE_ALL_ALERT"
+msgstr "一括更新を行う場合は、対象講座を選択して検索後に編集してください。"
+
+msgid "TARGET_COURSE_IS_NOT_EXIST"
+msgstr "対象の講座情報が存在しません。"
+
+msgid "THERE_IS_NO_UPDATE_TARGET"
+msgstr "更新対象がありません。"
+
+msgid "CSV_OUTPUT_FAILED"
+msgstr "CSV出力失敗しました。"
+
+msgid "CSV_IMPORT_COMPLETED"
+msgstr "CSV取り込み完了しました。"
+
+msgid "FAILED_TO_IMPORT_CSV"
+msgstr "CSV取り込み失敗しました。"
+
+msgid "CSV_TRANSFER_COMPLETED"
+msgstr "CSV転送完了しました。"
+
+msgid "CSV_TRANSFER_FAILED"
+msgstr "CSV転送失敗しました。"
+
+msgid "PAGE_ID_EXISTS"
+msgstr "すでにページIDが登録済みです。"
+
+msgid "GET_INFO_NEWS_DETAIL_ERROR"
+msgstr "データベースエラー。お知らせ情報の取得に失敗しました。"
+
+msgid "SYSTEM_ERROR"
+msgstr "内部でエラーが発生しました。システム管理者に問い合わせてください。"
+
+msgid "SYSTEM_ERROR_1"
+msgstr "データベースエラー。What\'s New情報の取得に失敗しました。"
+
+msgid "SYSTEM_ERROR_2"
+msgstr "データベースエラー。校舎情報の取得に失敗しました。"

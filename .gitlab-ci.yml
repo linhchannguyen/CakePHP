@@ -1,0 +1,44 @@
+stages:          # List of stages for jobs, and their order of execution
+  - TEST_ENVIRONMENT
+  - DEV_ENVIRONMENT
+
+deploy_test:       # This job runs in the build stage, which runs first.
+  stage: TEST_ENVIRONMENT
+  script:
+    - cd /var/www/tac_admin 
+    - git fetch origin 
+    - git reset --hard  
+    - git checkout Development 
+    - git pull origin Development 
+    - composer update
+    - bin/cake cache clear_all
+    - find . -group gitlab-deploy -print0 | tee >(xargs -0 chown :www-data)
+    - find . -group phpu -print0 | tee >(xargs -0 chown :www-data)
+
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: never
+    - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "Development"'
+      when: on_success
+
+deploy_dev:
+  stage: DEV_ENVIRONMENT
+  script:
+    - echo "branch $BRANCH_DEPLOY"
+    - cd /var/www/test/tac_admin 
+    - git fetch origin 
+    - git reset --hard  
+    - git checkout $BRANCH_DEPLOY 
+    - git pull origin $BRANCH_DEPLOY 
+    - composer update
+    - find . -group gitlab-deploy -print0 | tee >(xargs -0 chown :www-data)
+  rules:
+    - if: $BRANCH_DEPLOY != null 
+      when: on_success
+
+clear_cache_dev:
+  stage: DEV_ENVIRONMENT
+  script:
+    - cd /var/www/test/tac_admin 
+    - bin/cake cache clear_all"
+  when: manual

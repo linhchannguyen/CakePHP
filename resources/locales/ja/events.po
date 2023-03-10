@@ -1,0 +1,86 @@
+msgid "TITLE_HEAD"
+msgstr "イベント"
+
+msgid "TITLE_DETAIL"
+msgstr "イベント情報"
+
+msgid "TITLE_HEAD_EVENTS_EDIT"
+msgstr "イベント編集"
+
+msgid "TITLE_HEAD_EVENTS_EDIT_FINISH"
+msgstr "イベント項目編集完了"
+
+msgid "TITLE_HEAD_EVENTS_ADD"
+msgstr "イベント新規登録"
+
+msgid "TITLE_HEAD_EVENTS_ADD_FINISH"
+msgstr "イベント項目追加完了"
+
+msgid "TITLE_HEAD_EVENTS_DELETE_CONFIRM"
+msgstr "イベント: 削除確認"
+
+msgid "TITLE_HEAD_EVENTS_DELETED"
+msgstr "削除完了"
+
+msgid "TITLE_HEAD_EVENTS_CHANGE_RECORDS_DELETE"
+msgstr "イベント: 一括削除確認"
+
+msgid "TITLE_HEAD_EVENTS_CHANGE_RECORDS_VISIBLE"
+msgstr "イベント: 一括表示許可確認"
+
+msgid "TITLE_HEAD_EVENTS_CHANGE_RECORDS_INVISIBLE"
+msgstr "イベント: 一括表示禁止確認"
+
+msgid "TITLE_HEAD_EVENTS_DELETE_FINISH"
+msgstr "一括削除完了"
+
+msgid "TITLE_HEAD_EVENTS_VISIBLE_FINISH"
+msgstr "処理完了"
+
+msgid "TITLE_HEAD_EVENTS_INVISIBLE_FINISH"
+msgstr "処理完了"
+
+msgid "TITLE_HEAD_ERROR"
+msgstr "エラー"
+
+msgid "SORT_BY_DATE_ASC"
+msgstr "日付順 (昇順)"
+
+msgid "SORT_BY_DATE_DESC"
+msgstr "日付順 (降順)"
+
+msgid "SORT_BY_ID_ASC"
+msgstr "ID順 (昇順)"
+
+msgid "SORT_BY_ID_DESC"
+msgstr "ID順 (降順)"
+
+msgid "SORT_BY_SCHOOL_ORDER_ASC"
+msgstr "校舎順 (昇順)"
+
+msgid "SORT_BY_SCHOOL_ORDER_DESC"
+msgstr "校舎順 (降順)"
+
+msgid "SORT_BY_MODIFIED_ASC"
+msgstr "更新順 (昇順)"
+
+msgid "SORT_BY_MODIFIED_DESC"
+msgstr "更新順 (降順)"
+
+msgid "TITLE_DATE_AND_TIME_START"
+msgstr "イベント日時(始)"
+
+msgid "TITLE_DATE_AND_TIME_END"
+msgstr "イベント日時(終)"
+
+msgid "IS_ACTIVE_DISPLAY_STATE"
+msgstr "表示状態"
+
+msgid "IS_ACTIVE_DISPLAY"
+msgstr "表示"
+
+msgid "IS_ACTIVE_HIDDEN"
+msgstr "非表示"
+
+msgid "DATABASE_ERROR_FAILED_GET_INFORMATION"
+msgstr "データベースエラー。校舎情報の取得に失敗しました。"

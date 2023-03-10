@@ -1,0 +1,54 @@
+.col_header {
+    text-align: right;
+    padding-right: 5px
+}
+
+td {
+    padding: 5px 0;
+}
+
+.type_form,
+.category_row {
+    padding: 1em;
+    width: 1000px;
+}
+
+input[type="submit"] {
+    margin: 0;
+}
+
+input[readonly="readonly"] {
+    background-color: #ddd;
+}
+
+select {
+    height: 22px;
+}
+
+td[colspan="1"] {
+    width: 100px;
+}
+
+td[colspan="2"] {
+    width: 200px;
+}
+
+td[colspan="3"] {
+    width: 300px;
+}
+
+td[colspan="4"] {
+    width: 400px;
+}
+
+td[colspan="5"] {
+    width: 500px;
+}
+
+td[colspan="6"] {
+    width: 600px;
+}
+
+td[rowspan="2"] {
+    padding: 0;
+}

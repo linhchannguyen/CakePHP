@@ -1,0 +1,242 @@
+/* -*- mode:css; coding:utf-8-unix -*- */
+@charset "utf-8";
+
+@import url(yui/reset.css);
+@import url(yui/fonts.css);
+@import url(setting.css);
+
+
+/*------------------------------------------------
+ Yahoo! UI Library: Fonts CSS
+ Font-size Adjustment.
+   77% = 10px   |   123.1% = 16px   |   167% = 22px
+   85% = 11px   |   131% =  17px    |   174% = 23px
+   93% = 12px   |   138.5% = 18px   |   182% = 24px
+   100% = 13px  |   146.5% = 19px   |   189% = 25px
+   108% = 14px  |   153.9% = 20px   |   197% = 26px
+   116% = 15px  |   161.6% = 21px   |
+ *-----------------------------------------------*/
+
+
+/*------------------------------------------------
+ *
+ * Page Layout
+ *
+ *-----------------------------------------------*/
+body{
+        margin:0;
+        padding:0;
+}
+
+#pageContainer {
+  width: 2000px;
+  margin: 0 auto;
+/*  border: solid red; */
+  text-align: left;
+  background-color: #FEFEFE;
+/*  background-color: #E8FFD1; */
+}
+
+#pageHeader {
+  width: 2000px;
+/*  padding: 15px 0; */
+  padding: 0;
+  margin: 0 0 25px 0;
+}
+
+#pageHeader #titlehed{
+  width: 2000px;
+  padding: 10px 0 10px 110px;
+  font-size:14px;
+  line-height:1em;
+  font-weight:bold;
+  color:#ffffff;
+  margin: 0;
+  background: url(../images/taclogo1.gif) no-repeat;
+}
+
+#pageHeader #title{
+  width: 2000px;
+  color:#454545;
+  font-size:18px;
+  line-height:1.2em;
+  padding: 12px 0 12px 15px;
+  margin: 0;
+  background:url(../images/hedbg1.gif) no-repeat;
+}
+
+#mainContents {
+  float: left;
+  padding: 0;
+  margin: 0;
+  margin-left: 1em;
+/*  background-color: #FFFFDD; */
+}
+
+#subContents {
+/*  display: none; */
+  width: 140px;
+  float: left;
+  padding: 0;
+  margin: 0;
+  background-color: #dcdcdc;
+}
+
+#pageFooter {
+  width: 100%;
+  clear: both;
+  padding: 0;
+  margin: 0;
+/*  background-color: #FFFFDD; */
+}
+
+
+/*------------------------------------------------
+ *
+ * Misc
+ *
+ *-----------------------------------------------*/
+a.mailto {
+  padding-right: 18px;
+  background: url(images/mail_16x16_001-trans.png) no-repeat center right;
+}
+
+*.warn {
+  color: #EE0000;
+}
+
+/* 表示許可行用 */
+*.class_active {
+}
+
+/* 表示禁止行用 */
+*.class_inactive {
+  color: #BE8EB5;
+}
+
+
+/*------------------------------------------------
+ *
+ * 一覧表示用テーブル
+ *
+ *-----------------------------------------------*/
+table.catalog thead {
+  text-align: center;
+  vertical-align: center;
+  white-space: nowrap;
+  background-color: #DCDCDC;
+}
+
+table.catalog th {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  font-size:80%;
+}
+
+table.catalog td {
+  text-align: center;
+  padding: 2px 5px;
+  white-space: nowrap;
+  font-size:90%;
+}
+
+table.catalog tr.odd {
+  background-color: #F7F3EF;
+}
+
+table.catalog tr.even {
+  background-color: #E7E7CE;
+}
+
+
+/*------------------------------------------------
+ *
+ * フォーム要素整列用
+ *
+ *-----------------------------------------------*/
+div.frm form {
+  display: inline;
+}
+
+div.frm dl {
+  border-bottom:1px solid #b9b9b9;
+}
+
+div.frm dl dt {
+  clear: left;
+  float: left;
+  width: 12em;
+}
+
+div.frm dl dd {
+  margin-left: 12em;
+  width: 48em;
+}
+
+div.frm textarea {
+    width: 450px;
+    height: 80px;
+}
+
+
+/*------------------------------------------------
+ *
+ * ナビゲーションメニュー用
+ *
+ *-----------------------------------------------*/
+div.navi-hed{
+        padding:10px 10px;
+        font-size:90%;
+        line-height:1.2em;
+        font-weight:bold;
+        background:#a9a9a9;
+        color:#ffffff;
+}
+
+ul.navi-menu {
+  margin: 0 0 20px 0;
+  padding:0;
+  list-style:none;
+}
+
+ul.navi-menu li {
+  margin: 0px;
+  padding:6px 0 6px 10px;
+  font-size:85%;
+  line-height:1.3em;
+  border-top:1px solid #ffffff;
+  border-bottom:1px solid #a9a9a9;
+}
+
+ul.navi-menu li a:link{
+        text-decoration:none;
+}
+
+ul.navi-menu li a:hover{
+        text-decoration:underline;
+        color:#ff0000;
+}
+
+
+
+/*------------------------------------------------
+ *
+ * 追加スタイル
+ *
+ *-----------------------------------------------*/
+.hedder01{
+	background:url(../images/hedderbg.gif) repeat-y;
+	font-size:14px;
+	font-weight:bold;
+	line-height:1.2em;
+	padding:5px 0 5px 10px;
+	margin-bottom:5px;
+}
+
+.dotarw{
+	background:url(../images/dotarw_r01.gif) no-repeat 0 2px;
+	padding:0 0 0 17px;
+	margin:5px 0;
+}

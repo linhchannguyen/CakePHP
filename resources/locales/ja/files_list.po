@@ -1,0 +1,59 @@
+msgid "TITLE_HEAD"
+msgstr "PDFファイル管理"
+
+msgid "ERROR_DATABASE_GET_INFORMATION"
+msgstr "データベースエラー。ファイル情報の取得に失敗しました。"
+
+msgid "ERROR_DATABASE_GET_DELETED_FILE"
+msgstr "データベースエラー。削除ファイル情報の取得に失敗しました。"
+
+msgid "ERROR_DATABASE_DELETED_FILE"
+msgstr "データベースエラー。削除ファイルのレコード削除に失敗しました。"
+
+msgid "REGISTED_DATE_START"
+msgstr "登録日時(始)"
+
+msgid "REGISTED_DATE_END"
+msgstr "登録日時(終)"
+
+msgid "NARROW_DOWN_EXECUTION"
+msgstr "絞り込み実行"
+
+msgid "DELETE_MARKED_ITEM"
+msgstr "マークした項目を削除"
+
+msgid "BULK_UPLOAD_OF_PDF_FILES"
+msgstr "PDFファイルの一括アップロード"
+
+msgid "UPLOAD"
+msgstr "アップロード"
+
+msgid "TITLE_HEAD_FILES_CHANGE_RECORDS_DELETE_CONFIRM"
+msgstr "PDFファイル管理: 一括削除確認"
+
+msgid "TITLE_HEAD_FILES_CHANGE_RECORDS_DELETE_FINISH"
+msgstr "PDFファイル管理: 一括削除完了"
+
+msgid "SELECT_ALL"
+msgstr "すべて選択"
+
+msgid "DESELECT_ALL"
+msgstr "すべて選択解除"
+
+msgid "INVERT_SELECTION"
+msgstr "選択状態を反転する"
+
+msgid "RETURN_TO_FILES_LIST"
+msgstr "ファイルリスト画面に戻ります"
+
+msgid "TITLE_DELETE_COMPLETED"
+msgstr "削除完了しました。"
+
+msgid "TITLE_DELETE_FOLLOWING_DATA"
+msgstr "以下のデータを削除します。"
+
+msgid "DELETE"
+msgstr "削除します"
+
+msgid "TITLE_HEAD_ERROR"
+msgstr "エラー"

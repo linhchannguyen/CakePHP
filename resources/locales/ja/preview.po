@@ -1,0 +1,5 @@
+msgid "DATABASE_ERROR_FAILED_GET_INFORMATION"
+msgstr "データベースエラー。校舎情報の取得に失敗しました。"
+
+msgid "TITLE_HEAD_ERROR"
+msgstr "エラー"
